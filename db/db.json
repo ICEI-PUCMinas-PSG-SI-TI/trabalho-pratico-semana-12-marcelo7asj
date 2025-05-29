@@ -1,16 +1,51 @@
 {
   "filmes": [
     {
-      "id": "3",
-      "titulo": "Superbad - É Hoje (Atualizado)",
+      "id": "1",
+      "titulo": "Ainda Estou Aqui",
+      "destaque": true,
+      "imagem": "estou.jpg",
+      "descricao": "No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar...",
+      "diretor": "João Pereira",
+      "ano": 2023,
+      "genero": "Drama",
+      "duracao": "1h 45min",
+      "imagens_complementares": []
+    },
+    {
+      "id": "2",
+      "titulo": "Superbad - É Hoje",
       "destaque": true,
       "imagem": "SuperBad.jpg",
-      "descricao": "Descrição atualizada...",
+      "descricao": "Os adolescentes Seth e Evan têm grandes esperanças para uma festa de formatura...",
       "diretor": "Greg Mottola",
       "ano": 2007,
       "genero": "Comédia",
       "duracao": "1h 53min",
       "imagens_complementares": []
+    },
+    {
+      "id": "3",
+      "titulo": "Vingadores: Ultimato",
+      "destaque": true,
+      "imagem": "Ultimato.jpg",
+      "descricao": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda...",
+      "diretor": "Anthony e Joe Russo",
+      "ano": 2019,
+      "genero": "Ação/Ficção",
+      "duracao": "3h 2min",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "portal.webp",
+          "descricao": "Cena do portal"
+        },
+        {
+          "id": 2,
+          "src": "mjonir.jpg",
+          "descricao": "Capitão América com Mjölnir"
+        }
+      ]
     },
     {
       "id": "4",
@@ -22,42 +57,19 @@
       "ano": 2019,
       "genero": "Suspense/Terror",
       "duracao": "1h 36min",
-      "imagens_complementares": [
-        {
-          "id": 1,
-          "src": "aespreita1.jpg",
-          "descricao": "Casa assombrada"
-        },
-        {
-          "id": 2,
-          "src": "aespreita2.jpeg",
-          "descricao": "Cena de tensão no escuro"
-        }
-      ]
-    },
-    {
-      "id": "a865",
-      "titulo": "Clube da Luta",
-      "destaque": false,
-      "imagem": "clubedaluta.jpg",
-      "descricao": "Um homem deprimido funda um clube secreto.",
-      "diretor": "David Fincher",
-      "ano": 1999,
-      "genero": "Drama",
-      "duracao": "2h 19min",
       "imagens_complementares": []
     },
     {
-      "id": "eeab",
-      "titulo": "Clube da Luta",
+      "titulo": "Marcelove",
+      "diretor": "Marcelaum",
+      "ano": 2007,
+      "genero": "Bibliografia",
+      "duracao": "18 anos ",
+      "descricao": "Ele é o mais foda!",
+      "imagem": "eu.jpeg",
       "destaque": false,
-      "imagem": "clubedaluta.jpg",
-      "descricao": "Um homem deprimido funda um clube secreto.",
-      "diretor": "David Fincher",
-      "ano": 1999,
-      "genero": "Drama",
-      "duracao": "2h 19min",
-      "imagens_complementares": []
+      "imagens_complementares": [],
+      "id": "xLpbECE"
     }
   ]
 }

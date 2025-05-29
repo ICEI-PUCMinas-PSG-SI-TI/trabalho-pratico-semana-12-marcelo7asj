@@ -1,0 +1,63 @@
+{
+  "filmes": [
+    {
+      "id": "3",
+      "titulo": "Superbad - É Hoje (Atualizado)",
+      "destaque": true,
+      "imagem": "SuperBad.jpg",
+      "descricao": "Descrição atualizada...",
+      "diretor": "Greg Mottola",
+      "ano": 2007,
+      "genero": "Comédia",
+      "duracao": "1h 53min",
+      "imagens_complementares": []
+    },
+    {
+      "id": "4",
+      "titulo": "À Espreita do Mal",
+      "destaque": true,
+      "imagem": "aespreita.jpg",
+      "descricao": "Em busca de um adolescente desaparecido, o detetive de uma pequena cidade descobre.",
+      "diretor": "Adam Randall",
+      "ano": 2019,
+      "genero": "Suspense/Terror",
+      "duracao": "1h 36min",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "aespreita1.jpg",
+          "descricao": "Casa assombrada"
+        },
+        {
+          "id": 2,
+          "src": "aespreita2.jpeg",
+          "descricao": "Cena de tensão no escuro"
+        }
+      ]
+    },
+    {
+      "id": "a865",
+      "titulo": "Clube da Luta",
+      "destaque": false,
+      "imagem": "clubedaluta.jpg",
+      "descricao": "Um homem deprimido funda um clube secreto.",
+      "diretor": "David Fincher",
+      "ano": 1999,
+      "genero": "Drama",
+      "duracao": "2h 19min",
+      "imagens_complementares": []
+    },
+    {
+      "id": "eeab",
+      "titulo": "Clube da Luta",
+      "destaque": false,
+      "imagem": "clubedaluta.jpg",
+      "descricao": "Um homem deprimido funda um clube secreto.",
+      "diretor": "David Fincher",
+      "ano": 1999,
+      "genero": "Drama",
+      "duracao": "2h 19min",
+      "imagens_complementares": []
+    }
+  ]
+}

@@ -15,7 +15,7 @@
     <header class="container-fluid bg-black border-bottom border-white fixed-top py-3 d-flex flex-wrap justify-content-between align-items-center">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="index.html">
-                <img src="imgs/Take5-removebg-preview.png" alt="Logo Take5" height="120px">
+                <img src="assets/imgs/Take5-removebg-preview.png" alt="Logo Take5" height="120px">
             </a>
             <div class="input-group w-50">
                 <input type="text" class="form-control" placeholder="Pesquisa">
@@ -66,7 +66,7 @@
             .then(response => response.json())
             .then(movie => {
                 document.getElementById('movieTitle').innerText = movie.titulo;
-                document.getElementById('movieImg').src = "imgs/" + movie.imagem;
+                document.getElementById('movieImg').src = "assets/imgs/" + movie.imagem;
                 document.getElementById('movieOscar').innerText = movie.destaque ? 'VENCEDOR DO OSCAR' : '';
                 document.getElementById('movieYear').innerText = `Ano: ${movie.ano || 'Indefinido'}`;
                 document.getElementById('movieReleaseDate').innerText = `Duração: ${movie.duracao || 'Indefinida'}`;

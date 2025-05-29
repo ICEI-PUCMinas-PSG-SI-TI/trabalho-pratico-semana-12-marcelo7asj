@@ -28,7 +28,7 @@ async function carregarFilmes(lista = null) {
             const card = `
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                     <div class="card bg-dark text-white h-100">
-                        <img src="imgs/${filme.imagem}" class="card-img-top" alt="${filme.titulo}">
+                        <img src="assets/imgs/${filme.imagem}" class="card-img-top" alt="${filme.titulo}">
                         <div class="card-body">
                             <h5 class="card-title">${filme.titulo}</h5>
                             <p class="card-text">${filme.descricao}</p>
@@ -64,7 +64,7 @@ async function montarDestaques() {
 
             carouselInner.innerHTML += `
                 <div class="carousel-item ${active}">
-                    <img src="imgs/${filme.imagem}" class="d-block w-100" style="max-height: 500px; object-fit: cover;" alt="${filme.titulo}">
+                    <img src="assets/imgs/${filme.imagem}" class="d-block w-100" style="max-height: 500px; object-fit: cover;" alt="${filme.titulo}">
                     <a href="detalhes.html?id=${filme.id}" class="text-decoration-none text-white">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
                             <h5 class="text-danger">${filme.titulo}</h5>
