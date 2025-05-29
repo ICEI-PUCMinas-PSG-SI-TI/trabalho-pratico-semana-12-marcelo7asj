@@ -14,5 +14,82 @@
       "nome": "Usuario Comum",
       "email": "user@abc.com"
     }
+  ],
+  "filmes": [
+    {
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "titulo": "Superbad - É Hoje",
+      "destaque": true,
+      "imagem": "SuperBad.jpg",
+      "descricao": "Os adolescentes Seth e Evan têm grandes esperanças para uma festa de formatura...",
+      "diretor": "Greg Mottola",
+      "ano": 2007,
+      "genero": "Comédia",
+      "duracao": "1h 53min",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "superbad1.jpg",
+          "descricao": "Seth e Evan no corredor"
+        },
+        {
+          "id": 2,
+          "src": "superbad2.jpg",
+          "descricao": "Festa de formatura"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Vingadores: Ultimato",
+      "destaque": true,
+      "imagem": "Ultimato.jpg",
+      "descricao": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda...",
+      "diretor": "Anthony e Joe Russo",
+      "ano": 2019,
+      "genero": "Ação/Ficção",
+      "duracao": "3h 2min",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "portal.webp",
+          "descricao": "Cena do portal"
+        },
+        {
+          "id": 2,
+          "src": "mjonir.jpg",
+          "descricao": "Capitão América com Mjölnir"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "titulo": "À Espreita do Mal",
+      "destaque": true,
+      "imagem": "aespreita.jpg",
+      "descricao": "Em busca de um adolescente desaparecido, o detetive de uma pequena cidade descobre.",
+      "diretor": "Adam Randall",
+      "ano": 2019,
+      "genero": "Suspense/Terror",
+      "duracao": "1h 36min",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "aespreita1.jpg",
+          "descricao": "Casa assombrada"
+        },
+        {
+          "id": 2,
+          "src": "aespreita2.jpeg",
+          "descricao": "Cena de tensão no escuro"
+        }
+      ]
+    },
+    {
+      "id": "74df"
+    }
   ]
 }
