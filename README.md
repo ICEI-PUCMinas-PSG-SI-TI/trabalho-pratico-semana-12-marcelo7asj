@@ -5,20 +5,21 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Marcelo Antonino
+- Matricula:891896
+- Proposta de projeto escolhida:Catálogo de filmes
+- Breve descrição sobre seu projeto:O projeto de site de catálogo de filmes visa criar uma plataforma onde os usuários possam buscar, visualizar e compartilhar informações sobre filmes de diferentes gêneros e lançamentos. Com funcionalidades como pesquisa, catálogo, página de detalhes, compartilhamento, avaliação e crítica, o site será desenvolvido com tecnologias como HTML, CSS, além de utilizar APIs de terceiros e banco de dados. A segurança será garantida por meio de autenticação, validação e criptografia.
 
 **Print do testes da API com Postman ou similar**
 
 <<  COLOQUE A IMAGEM GET AQUI >>
-
+![alt text](prints/get.png)
 <<  COLOQUE A IMAGEM POST AQUI >>
-
+![alt text](prints/post.png)
 <<  COLOQUE A IMAGEM PUT AQUI >>
-
+![alt text](prints/put.png)
 <<  COLOQUE A IMAGEM DELETE AQUI >>
+![alt text](prints/del.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR de POST**
 
