@@ -1,0 +1,130 @@
+/* Reset e estrutura geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 70px;
+}
+
+header nav a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #ff4d4d;
+}
+
+/* Botão de gêneros */
+.dropdown-menu a:hover {
+    background-color: red;
+}
+
+/* Estilo do botão da lupa */
+#search-btn {
+    background-color: black;
+    border: 1px solid white;
+}
+
+#search-btn i {
+    color: white;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 100px 20px 20px;
+}
+
+/* Cartões de filmes */
+.card {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid red;
+    text-align: center;
+}
+
+.card img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: red;
+    margin-top: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Indicador de Oscar */
+.oscar {
+    color: red;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+}
+
+footer img {
+    margin: 0 10px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header .input-group {
+        width: 100% !important;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    main {
+        padding-top: 120px;
+    }
+}
+footer h5, footer h6 {
+    color: red;
+}
+
+footer a:hover i {
+    color: #ff4d4d;
+}
